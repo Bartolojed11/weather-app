@@ -1,0 +1,110 @@
+@media screen and (max-width: 800px) {
+  .place-info-container {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .random-destinations > section {
+    flex-direction: column;
+  }
+
+  .random-destinations > section > .card {
+    max-width: 100%;
+  }
+
+  .search-wrapper {
+    width: 65%;
+  }
+
+  .weather-info-header {
+    display: none;
+  }
+
+  .weather-info-body > .desktop {
+    display: none;
+  }
+  .weather-info-body > .mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .search-wrapper {
+    width: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .heading__title {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  .place-info-container {
+    max-width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .date-select-container ul {
+    gap: 1rem;
+  }
+
+  .btn-data-select {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .search-wrapper {
+    width: 90%;
+  }
+
+  .place-info-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .search-destination__input::placeholder {
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .search-destination__icon {
+    display: none;
+  }
+
+  .heading__title {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+    .date-select-container ul {
+        gap: 0;
+    }
+}

@@ -1,0 +1,124 @@
+.container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.container-fluid {
+    padding: 1.6rem;
+}
+
+/* forms */
+.form-input {
+    border: 0px;
+    outline: none;
+    padding: .9rem;
+}
+
+.form-input-large {
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.form-input::placeholder {
+    color: var(--font-placeholder);
+}
+
+.letter-spacing-normal {
+    letter-spacing: normal !important;
+}
+
+/* buttons */
+.btn {
+    outline: none;
+    width: 100%;
+    border: 0px;
+    padding: 1.4rem;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.button-crystal {
+    border: 0px;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Spacing */
+.text-center {
+    text-align: center;
+}
+
+.mt-4px {
+    margin-top: 4px;
+}
+/* fonts */
+.font-highlight {
+    color: var(--font-highlight);
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+.just-between {
+    justify-content: space-between !important;
+}
+
+.wrap {
+    flex-wrap: wrap !important;
+}
+
+.flex-1 {
+    flex: 1 !important;
+}
+
+.flex-xy-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+
+/* Cards */
+.card {
+    max-width: 33.3%;
+    min-width: 30.3%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.8rem;
+    padding-bottom: 4.4rem;
+    position: relative;
+  }
+  
+  .card-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  
+  .card-small-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  .card-small-title > p {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  
+  .card--footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }

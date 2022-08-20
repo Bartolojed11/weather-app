@@ -1,0 +1,57 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --primary: #E02F90;
+  --info: #FFDEF1;
+
+  /* Fonts colors */
+  --placeholder: #6A6A6A;
+  --font-primary: #48283A;
+  --font-highlight: var(--primary);
+
+  /* Border radius */
+  --base-radius: .8rem;
+  --x-def-radius: var(--base-radius);
+  --y-def-radius: var(--base-radius);
+  --xy-def-radius: var(--base-radius);
+  --font-30px: 3rem;
+  --font-16px: 1.6rem;
+  --font-24px: 2.4rem;
+
+  /* Gray */
+  --light-gray: #F2F2F2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: var(--font-primary);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: 'Nunito', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-primary);
+}
+
+input, button {
+  border-radius: var(--base-radius);
+  font-family: 'Nunito', sans-serif;
+}
