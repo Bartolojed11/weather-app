@@ -1,46 +1,41 @@
 <script>
 import { RouterLink } from "vue-router";
-// defineProps({
-//   msg: {
-//     type: String,
-//     required: true,
-//   },
-// });
+export default {
+  props: ['data'],
+  computed: {
+    view_more_url() {
+      return `/details?lon=${this.data.lon}&lat=${this.data.lat}`
+    }
+  }
+}
 </script>
 <template>
   <div class="card flex-1">
     <div class="card-content container-fluid">
-      <h1 class="card-title font-highlight">Yokohama</h1>
+      <h1 class="card-title font-highlight">{{ data.city }}</h1>
       <div>
         <span>Latitude: </span>
-        <span>138.2529</span>
+        <span>{{ data.lat }}</span>
       </div>
 
       <div>
         <span>Longitude: </span>
-        <span>1.1111</span>
+        <span>{{ data.lon }}</span>
       </div>
       <div class="flex just-between mt-4px">
         <h1 class="card-small-title font-highlight">Today's weather forecast</h1>
       </div>
 
       <section class="card-weather-forecast">
-        <div class="flex just-between wrap">
-          <p>1:00 PM</p>
-          <p>icon</p>
-          <p>umuulan</p>
-          <p>39C</p>
-        </div>
-        <div class="flex just-between wrap">
-          <p>1:00 PM</p>
-          <p>icon</p>
-          <p>umuulan</p>
-          <p>39C</p>
+        <div class="flex just-between align-center">
+          <p><img :src="data.icon"/></p>
+          <p>{{ data.weather_description }}</p>
+          <p>{{ data.temp }}</p>
         </div>
       </section>
     </div>
     <div class="card--footer">
-      <RouterLink to="/" class="btn-more-details">
+      <RouterLink :to="view_more_url" class="btn-more-details">
         More details
       </RouterLink>
     </div>

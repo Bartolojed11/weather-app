@@ -90,6 +90,14 @@
     justify-content: center;
 }
 
+.align-center {
+    align-items: center !important;
+}
+
+
+.txt-center {
+    text-align: center;
+}
 
 /* Cards */
 .card {
@@ -121,4 +129,43 @@
     left: 0;
     right: 0;
     bottom: 0;
+  }
+
+  /* anchors */
+  .anchor-disabled {
+    pointer-events: none;
+  }
+
+  /* Errors */
+  .error-modal {
+    background-color: #fff;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    border-radius: .8rem;
+    max-width: 50%;
+    padding: 2rem;
+  }
+
+  .error-modal > .error-message {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--danger);
+  }
+
+  .error-modal > .error-description {
+    text-align: center;
+  }
+
+
+  .error-overflow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #DCDCDC;
+    opacity: 0.5;
   }

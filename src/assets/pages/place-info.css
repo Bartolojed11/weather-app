@@ -97,3 +97,8 @@
 .weather-info-body .mobile > div {
   padding: 1rem;
 }
+
+.forecast-icon {
+  height: 3rem;
+  text-align: center;
+}

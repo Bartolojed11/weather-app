@@ -2,6 +2,7 @@
 :root {
   --primary: #E02F90;
   --info: #FFDEF1;
+  --danger: #DC3545;
 
   /* Fonts colors */
   --placeholder: #6A6A6A;
@@ -54,4 +55,9 @@ a {
 input, button {
   border-radius: var(--base-radius);
   font-family: 'Nunito', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }

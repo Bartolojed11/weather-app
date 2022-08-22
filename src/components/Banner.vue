@@ -27,7 +27,6 @@ export default {
     this.addActive(slides[0]);
 
     setInterval(function () {
-      console.log("setInterval");
       for (var i = 0; i < slides.length; i++) {
         if (i + 1 == slides.length) {
           self.addActive(slides[0]);
