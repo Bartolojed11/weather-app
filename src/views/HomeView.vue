@@ -83,14 +83,14 @@ export default {
 
 <template>
   <main>
-    <div class="banner-search__wrapper">
+    <div class="banner-search-wrapper">
       <Banner />
-      <div class="search_destination__wrapper">
+      <div class="search_destination-wrapper">
         <div class="search-wrapper">
           <input
             class="
               form-input
-              search-destination__input
+              search-destination-input
               form-input-large
               autocomplete-container
             "
@@ -98,7 +98,7 @@ export default {
             v-model="search"
           />
           <img
-            class="search-destination__icon"
+            class="search-destination-icon"
             src="../assets/search.png"
             alt="search icon"
           />
@@ -143,7 +143,7 @@ export default {
     </div>
 
     <div class="container random-destinations__container">
-      <h1 class="heading__title text-center">DEFAULT JAPAN DESTINATIONS</h1>
+      <h1 class="heading-title text-center">DEFAULT JAPAN DESTINATIONS</h1>
       <h2 class="text-center">
         Choose any destination to check for weather and place information
       </h2>

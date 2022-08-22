@@ -47,7 +47,7 @@
     margin-right: 3rem;
   }
 
-  .heading__title {
+  .heading-title {
     font-size: 2.4rem;
   }
 
@@ -83,17 +83,17 @@
     padding-right: 3rem;
   }
 
-  .search-destination__input::placeholder {
+  .search-destination-input::placeholder {
     text-overflow: ellipsis;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .search-destination__icon {
+  .search-destination-icon {
     display: none;
   }
 
-  .heading__title {
+  .heading-title {
     font-size: 2rem;
     letter-spacing: 0.5rem;
   }

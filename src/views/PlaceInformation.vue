@@ -132,7 +132,7 @@ export default {
 
     <Error :show="showError" />
     <div class="place-info-container" v-if="isReady && (data.status == 200)">
-      <h1 class="heading__title letter-spacing-normal">
+      <h1 class="heading-title letter-spacing-normal">
         {{ data.data.city.name }}
       </h1>
       <div class="place-info-coordinates">

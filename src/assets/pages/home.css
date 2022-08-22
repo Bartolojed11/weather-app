@@ -1,9 +1,9 @@
-.banner-search__wrapper {
+.banner-search-wrapper {
   position: relative;
   margin-bottom: 7rem;
 }
 
-.search_destination__wrapper {
+.search_destination-wrapper {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -16,7 +16,7 @@
   z-index: 101;
 }
 
-.search_destination__wrapper::before {
+.search_destination-wrapper::before {
   content: "";
   background-color: #555555;
   opacity: 0.54;
@@ -30,11 +30,11 @@
   position: relative;
 }
 
-.search-destination__input {
+.search-destination-input {
   width: 100%;
 }
 
-.search-destination__icon {
+.search-destination-icon {
   position: absolute;
   right: .7rem;
   bottom: .7rem;
@@ -42,7 +42,7 @@
   width: 3rem;
 }
 
-.heading__title {
+.heading-title {
   font-size: var(--font-30px);
   color: var(--font-highlight);
   font-weight: 700;
